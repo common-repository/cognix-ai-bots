@@ -1,0 +1,172 @@
+
+label.error {
+    font-size: 16px;
+    line-height: 1.25;
+    padding-top: 4px;
+    color: red;
+    width: 100%;
+    display: block;
+}
+
+form input.regular-text {
+    padding-left: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+    height: 40px;
+    width: 70%;
+    outline: none;
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    padding: 10px 40px;
+    width: auto;
+    background: #2271b1;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 5px;
+    clear: right;
+    -webkit-transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -ms-transition: 0.2s ease all;
+    -o-transition: 0.2s ease all;
+    transition: 0.2s ease all;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+.left-part {
+    width: 48%;
+    margin-right:4%;
+}
+
+.right-part {
+    width: 48%;
+}
+
+.wrap {
+    display: flex;
+}
+
+.regclu {
+    display: none;
+}
+
+.hideuser {
+    display: none !important;
+}
+
+.note {
+    font-size: 18px;
+}
+
+.note strong {
+    font-weight: bold;
+}
+
+.loading {
+    display: none;
+    width: 200px;
+    height: 50px;
+}
+
+.loading.load {
+    display: block;
+}
+
+.pages-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#email_allowed, #member_name_allowed{
+    display: inline-block;
+}
+
+.lresponsemsg_success{
+    color: green;
+}
+
+.login_response_success {
+    color:green;
+}
+
+.login_response_error {
+    color: red;
+}
+
+.error_message {
+    color:red;
+}
+
+.success_message {
+    color: green;
+}
+input[name="crchatboat"]:disabled{
+    opacity: 0.8;
+    color: #a7aaad !important;
+    background: #f6f7f7 !important;
+    border-color: #dcdcde !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    cursor: default;
+}
+
+
+.chatbot-script{
+    border-radius: 4px;
+    padding: 10px;
+    word-wrap: break-word;
+    background: #464646;
+    color: #fff;
+}
+
+.chatbot-script code{
+    background: transparent !important;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+.welcome-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+.image-placeholder {
+    width: 100%;
+    height: 200px;
+    background-color: #ddd;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
